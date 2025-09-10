@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="wrapper">
+    <div class="card result-card">
+      <h1>🩺 Prediction Result</h1>
+      <div class="image-section">
+        <img src="{{ url_for('static', filename=image_path.split('/')[-1]) }}" alt="Uploaded MRI" class="mri">
+      </div>
+      <h2>Prediction: <span class="highlight">{{ label }}</span></h2>
+      <p class="description">{{ description }}</p>
+
+      <div class="next-steps">
+        <h3>✅ Suggested Next Steps</h3>
+        <ul>
+          <li>Consult a neurologist for further evaluation.</li>
+          <li>Follow-up with MRI or CT scan if symptoms persist.</li>
+          <li>Consider medical treatment or surgery based on doctor’s advice.</li>
+        </ul>
+      </div>
+
+      
+      <a href="/" class="btn">Try Another</a>
+    </div>
+  </div>
+</body>
+</html>
