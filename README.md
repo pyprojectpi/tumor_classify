@@ -27,17 +27,17 @@ A **Python Flask web application** that classifies brain tumors from MRI images 
 
 ## 🖼️ Project Structure
 
-classiification_tumor/
-├── app.py                   # Main Flask application
-├── tumor_classifier.pth     # Pre-trained PyTorch model
-├── requirements.txt         # Python dependencies
-├── templates/               # HTML templates
-│   ├── index.html           # Home page
-│   └── result.html          # Prediction result page
-├── static/                  # Static assets
-│   ├── style.css            # CSS styles
-│   └── images/              # Icons, backgrounds, sample images
-└── data/                    # Sample MRI images for testing
+- **app.py** – Main Flask application
+- **tumor_classifier.pth** – Pre-trained PyTorch model
+- **requirements.txt** – Python dependencies
+- **templates/** – HTML templates
+  - `index.html` – Home page
+  - `result.html` – Prediction result page
+- **static/** – Static assets
+  - `style.css` – CSS styles
+  - `images/` – Icons, backgrounds, sample images
+- **data/** – Sample MRI images for testing
+
 
 
 
