@@ -2,7 +2,7 @@
 
 
 <video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/pyprojectpi/tumor_classify/main/Tumor_Classify.mp4" type="video/mp4">
+  <source src="https://github.com/pyprojectpi/tumor_classify/blob/main/Tumor_Classify.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 
