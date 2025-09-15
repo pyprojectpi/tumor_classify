@@ -1,7 +1,11 @@
 # 🧠 Brain Tumor Classification Web App
 
 ## 🎥 Demo
-[Demo](https://drive.google.com/file/d/14TkrigeTo61PtQBxOP511zubm3VdFMW6/view?t=11)
+
+
+
+https://github.com/user-attachments/assets/c4e3a23b-c013-4933-866e-cb8157d7b101
+
 
 A **Python Flask web application** that classifies brain tumors from MRI images into categories like **Glioma**, **Meningioma**, and **Pituitary Tumor** using **PyTorch deep learning models**. This project is ideal for **medical imaging enthusiasts** and **AI/ML learners**.
 
